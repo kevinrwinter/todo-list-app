@@ -20,7 +20,7 @@ p {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin-bottom: 1rem;
   color: #250317;
 }
@@ -118,6 +118,10 @@ form button:hover {
   align-items: baseline;
 }
 
+.icon-group i:hover {
+  cursor: pointer;
+}
+
 .delete {
   margin-left: 1rem;
 }
@@ -125,11 +129,6 @@ form button:hover {
 .complete {
   text-decoration-line: line-through;
   text-decoration-thickness: 2px;
-}
-
-.done:hover,
-.delete:hover {
-  cursor: pointer;
 }
 
 .hide {
